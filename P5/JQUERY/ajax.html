@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script src="jquery-3.7.1.js"></script>
+   <script>
+    $(document).ready(function() {
+        $("button").click(function() { // Pembuatan tombol yang nantinya bisa di klik
+            $("#box").load("/dasarWeb/praktik_jquery/test-contest.html"); //membuat konten yang berbeda filenya (id box) dan load untuk di load
+        });
+    });
+   </script>
+</head>
+<body>
+    <div id="box">
+        <!--header 2-->
+        <h2>Klik tombol dibawah untuk menampilkan konten</h2> 
+    </div>
+    <button type="button">Klik Saya!</button>
+    <!--Button dengan tulisan Klik Saya!-->
+</body>
+</html>
