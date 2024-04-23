@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse; /* Batas antar sel digabung*/
+    width: 70%; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    border: 1px solid black; /*mengatur warna border menjadi hitam*/
+    
+}
+
+/*mengatur ukuran  dalam sel dan posisi teks*/
+th, td {
+    text-align: left;
+    padding: 10px; 
+}
+
+/*mengatur warna background*/
+th {
+    background-color: hsl(254, 23%, 67%); 
+}
