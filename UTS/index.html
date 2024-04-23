@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Lomba Debat</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>Form Pendaftaran Lomba Debat</h2>
+        <form action="process_registration.php" method="post">
+            <input type="text" name="nama_lengkap" placeholder="Nama Lengkap" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="asal_sekolah" placeholder="Asal Sekolah" required>
+            <input type="text" name="kelas" placeholder="Kelas" required>
+            <input type="text" name="alamat" placeholder="Alamat" required>
+            <label for="jenjang">Jenjang:</label>
+            <select name="jenjang" id="jenjang" required>
+                <option value="">Pilih Jenjang</option>
+                <option value="SMA">SMA</option>
+                <option value="SMK">SMK</option>
+                <option value="MA">MA</option>
+            </select>
+            <label for="kategori">Kategori Lomba:</label>
+            <select name="kategori" id="kategori" required>
+                <option value="">Pilih Kategori Lomba</option>
+                <option value="Bahasa">Bahasa</option>
+                <option value="IPA">IPA</option>
+                <option value="IPS">IPS</option>
+            </select>
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
